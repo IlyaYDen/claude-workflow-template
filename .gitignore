@@ -1,0 +1,26 @@
+# Worktrees - каждый разработчик создаёт свои
+worktrees/*
+!worktrees/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Секреты
+.env
+.env.local
+*.pem
+*.key
+
+# Зависимости (раскомментируйте нужное)
+# node_modules/
+# venv/
+# __pycache__/
+# .gradle/
+# target/
